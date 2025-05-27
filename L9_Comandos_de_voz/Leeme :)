@@ -1,0 +1,11 @@
+Buen dia tengas estimado nerd     
+Para implementar este control de un GPIO a traves de comandos de voz utilizando el microfono PDM y el RP2040 integrado en la UNIT DUAL MCU ONE deberas instalar la libreria llamada "Comandos_de_voz_interfecing" 
+en tu Arduino IDE 
+Despues compila y sube a tu microcontrolador el archivo .ino y no desesperes amig@, mejor ponte comod@ porque este proceso puede tardar un rato. A nosotros con nuestras computadoras nos llego a tomar entre 30 y 
+40 minutos asi que considera eso.
+
+Sin mas por agregar espero que te sea de provecho este trabajo realizado por el equipo de Desarrollo de UNIT ELECTRONICS y visita nuestra pagina web https://uelectronics.com/ 
+
+Saludos 
+
+Atte: Gerardo Ruvalcaba >:)
