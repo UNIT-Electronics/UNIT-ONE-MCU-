@@ -4,6 +4,13 @@ en tu Arduino IDE
 Despues compila y sube a tu microcontrolador el archivo .ino y no desesperes amig@, mejor ponte comod@ porque este proceso puede tardar un rato. A nosotros con nuestras computadoras nos llego a tomar entre 30 y 
 40 minutos asi que considera eso.
 
+Por otro lado si deseas probar suerte haciendo tu propio modelo de edge impulse es necesario que conviartas tu tarjeta UNIT DUAL MCU ONE en un microfono para entrenar al modelo de Edge Impulse y para ello deberas 
+poner el RP2040 en modo UF2, que aparece como una unidad de almacenamiento en tu PC tras presionar una combinacion de botones rapidamente (RST, BOOT, Mantener presionados, soltar Boot y repetir una segunda vez), y 
+arrastrar y soltar en dicha unidad de almacenamiento el archivo contenido en este repositorio llaamdo DualONE_USBMic_v1.uf2
+
+Una vez que hayas terminado de grabar, para volver a la normalidad tu RP2040, presiona la misma combinacion de botones y cargale un Blink en tu arduino IDE al puerto UF2. Despues presiona el boton de Reset y tu RP2040 
+volvera a ser reconocido como un Puerto COM :)
+
 Sin mas por agregar espero que te sea de provecho este trabajo realizado por el equipo de Desarrollo de UNIT ELECTRONICS y visita nuestra pagina web https://uelectronics.com/ 
 
 Saludos 
