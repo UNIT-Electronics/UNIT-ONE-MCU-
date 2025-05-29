@@ -9,6 +9,8 @@
 #include "driver/twai.h"
 
 // Definir pines del ESP32 para RX y TX del transceptor CAN
+// Estos pines pertenecen al ESP32 integrado en la UNIT DUAL MCU ONE e internamente estan conectados al tranceptor CAN integrado en la placa
+// para mas detalles revise la pagina 3 del esquematico que puede encontrar en el siguiente enlace  https://uelectronics.com/wp-content/uploads/2025/01/AR4352-UNIT-DualMCU-ONE-Esquematico.pdf
 #define RX_PIN 26
 #define TX_PIN 25
 
