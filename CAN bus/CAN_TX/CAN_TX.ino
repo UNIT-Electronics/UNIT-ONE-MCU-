@@ -90,7 +90,7 @@ static void send_message2() {
   message.extd = 0;                    // Usa formato estándar (11 bits)
   message.rtr = 0;                     // No es una solicitud remota (RTR desactivado)
 
-  // Rellena los datos del mensaje (1, 2, 3, 4)
+  // Rellena los datos del mensaje (4, 3, 2, 1)
   for (int i = 0; i < 4; i++) {
     message.data[i] = 4 - i;
   }
