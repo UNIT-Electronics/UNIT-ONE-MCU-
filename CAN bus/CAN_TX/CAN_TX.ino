@@ -6,6 +6,8 @@ cada segundo. Además, monitorea errores y alertas del bus para asegurarse de qu
 #include "driver/twai.h"  // Incluye la librería del controlador CAN (TWAI) para ESP32
 
 // Definición de pines usados por el transceptor CAN
+// Estos pines pertenecen al ESP32 integrado en la UNIT DUAL MCU ONE e internamente estan conectados al tranceptor CAN integrado en la placa
+// para mas detalles revise la pagina 3 del esquematico que puede encontrar en el siguiente enlace  https://uelectronics.com/wp-content/uploads/2025/01/AR4352-UNIT-DualMCU-ONE-Esquematico.pdf
 #define RX_PIN 26          // Pin para recepción (RX)
 #define TX_PIN 25          // Pin para transmisión (TX)
 
