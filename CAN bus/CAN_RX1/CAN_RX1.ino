@@ -1,17 +1,7 @@
-#include <RUVAL22-project-1_inferencing.h>
-
 /* 
-   Ejemplo de recepción CAN usando TWAI en ESP32.
-   Recibe mensajes del bus CAN y los muestra por el puerto serie.
-
-   Es necesario conectar un transceptor CAN (como el SN65HVD230) a los pines RX/TX.
-
-   Este ejemplo usa TWAI en modo NORMAL, por lo tanto el ESP32 sí participa en el bus.
-
-   Documentación oficial:
+  Documentacion adicional
    https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/twai.html
-
-   Creado el 05-11-2022 por Stephan Martin (designer2k2)
+ 
 */
 
 // Ignorar advertencias por campos no inicializados
