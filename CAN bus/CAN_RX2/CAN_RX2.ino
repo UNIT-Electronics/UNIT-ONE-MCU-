@@ -1,4 +1,5 @@
 #include <SPI.h>
+// Previamente debes descargar el .zip e instalar en tu Arduino IDE la siguiente librereia, misma que te deje en el repositorio :3
 #include <mcp_can.h>
 
 // Pines del MCP2515 (ajusta si es necesario)
